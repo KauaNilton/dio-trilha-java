@@ -1,2 +1,2 @@
 # dio-trilha-java-basico
-Repositório para exemplos do curso de Java Básico pela DIO
+Repositório para exemplos do curso de Java Básico pela [Digital Inovation One](https://digitalinnovation.one/)
