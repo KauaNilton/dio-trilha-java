@@ -20,17 +20,11 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número da conta!");
         System.out.print("n. Conta: ");
         numero = in.nextInt();
-        String numeroEmString = Integer.toString(numero);
-        String saldoEmString = Double.toString(saldo);
 
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s," +
+                " Conta %d e o seu saldo de R$%.2f já está disponível para saque!", nomeCliente, agencia, numero, saldo);
 
-        String resultado = "Olá ".concat(nomeCliente)
-                .concat(", obrigado por criar uma conta em nosso banco, sua agência é ".concat(agencia)
-                        .concat(", Conta ").concat(numeroEmString).concat(" e o seu saldo de R$").concat(saldoEmString)
-                        .concat(" já está disponível para saque!"));
-
-        System.out.println("\n" + resultado);
-
+        in.close();
 
     }
 }
