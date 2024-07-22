@@ -5,7 +5,7 @@ import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Dev;
 import br.com.dio.desafio.dominio.Mentoria;
 
-import java.time.LocalDate;
+// Desafio feito com a especialista Camila Cavalcante || código original https://github.com/cami-la/desafio-poo-dio
 
 public class Main {
     public static void main(String[] args) {
